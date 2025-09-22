@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'EXCHANGE', href: 'https://skyro.xyz', target: '_blank' }],
+  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
