@@ -6,7 +6,7 @@ export const headerData = {
       text: 'Staking',
       links: [
         {
-          text: 'SaaS',
+          text: 'What Is Staking?',
           href: getPermalink('/homes/saas'),
         },
         {
@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Protocol',
+      text: 'Protocols',
       links: [
         {
           text: 'Features (Anchor Link)',
