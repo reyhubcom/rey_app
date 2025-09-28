@@ -136,13 +136,13 @@ export const footerData = {
       ],
     },
     {
-      title: 'Support',
+      title: 'Wallets',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Metamask', href: '#' },
+        { text: 'OKX Wallet', href: '#' },
+        { text: 'Bitget Wallet', href: '#' },
+        { text: 'Token Pocket', href: '#' },
+        { text: 'Vie All Wallet', href: '#' },
       ],
     },
     {
@@ -167,7 +167,8 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'TikTok', icon: 'tabler:brand-tiktok', href: '#' },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
+  
   ],
   footNote: `
     Made by <a class="text-blue-600 underline dark:text-muted" href="https://skyro.xyz"> Rey</a> ·2025 Rey.Fan All Rights Reserved.
