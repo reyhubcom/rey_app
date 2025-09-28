@@ -121,15 +121,15 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Blockchains',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Ethereum', href: '#' },
+        { text: 'Solana', href: '#' },
+        { text: 'Binance', href: '#' },
+        { text: 'BASE', href: '#' },
+        { text: 'Cosmos', href: '#' },
+        { text: 'Avalanche', href: '#' },
+        { text: 'View All Chains', href: '#' },
       ],
     },
     {
