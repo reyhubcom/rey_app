@@ -14,11 +14,11 @@ export const headerData = {
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Stake ETH',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Custodians',
           href: getPermalink('/homes/personal'),
         },
       ],
@@ -27,33 +27,26 @@ export const headerData = {
       text: 'Protocols',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Ethereum',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'Solana',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: 'Binance',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: 'BASE',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'View All Crypto',
           href: getPermalink('/contact'),
         },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+        
       ],
     },
     {
