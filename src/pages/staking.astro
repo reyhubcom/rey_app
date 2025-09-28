@@ -1,0 +1,176 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Content from '~/components/widgets/Content.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+
+import { headerData } from '~/navigation';
+import FAQs from '~/components/widgets/FAQs.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="header">
+    <Header
+      {...headerData}
+      actions={[
+        {
+          variant: 'secondary',
+          text: 'Login',
+          href: '#',
+        },
+        {
+          variant: 'primary',
+          text: 'Sign Up',
+          href: '#',
+        },
+      ]}
+      isSticky
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline=""
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'EXCHANGE', href: 'https://github.com/arthelokyo/astrowind' },
+      { text: 'APP STAKING', href: '#features' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1640032152000-f273e2ca6922?q=80&w=2600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'AstroWind Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+      Staking  Protocol<br />  <span class="text-accent dark:text-white"></span> <br
+      />
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        Build Your<span class="font-semibold">Protocol</span>Staking Knowledge.</span
+      >
+     Staking is a process in which token holders can earn rewards by helping to secure a blockchain network. Watch the video to learn more about how staking works.
+    </Fragment>
+  </Hero2>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    title="Who is Staking For?"
+    subtitle=""
+    columns={2}
+    items={[
+      {
+        title: 'Asset Managers',
+        description:
+          'Rey.Fan tailored staking strategies offer unparalleled reward opportunities for asset managers.',
+        icon: 'tabler:layers-union',
+      },
+      {
+        title: 'Marketplaces & Exchanges',
+        description: `Provide your users with frictionless staking, earn rewards, and secure networks through Figment's seamless integration for marketplaces and exchanges.`,
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'Custodians & Wallets',
+        description:
+          'Rey.Fan enables custodians and wallets to integrate staking solutions across established and emerging Proof-of-Stake protocols..',
+        icon: 'tabler:writing',
+      },
+      {
+        title: 'Fund Products',
+        description: `Create digital asset fund products underpinned by Figment's comprehensive on-chain data sets, offering a robust foundation for your investment strategies.`,
+        icon: 'tabler:podium',
+      },
+      {
+        title: 'Foundations',
+        description: `Leverage Figment's expertise to launch your protocol and manage your treasury with strategic guidance and support tailored to your foundation's needs.`,
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Data Platforms',
+        description: `Expand your data offering with Rey.Fan, providing your users a quantitative edge in a growing asset class through enhanced data analytics and insights..`,
+        icon: 'tabler:eyeglass',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="What is Staking?"
+    subtitle=""
+    isReversed
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Protocol staking is a process in which users can earn rewards by holding and “staking” their tokens in a blockchain network. Staking helps decentralize and maintain the health of the network. Staking provides a steady stream of rewards, independent of underlying token prices.',
+      },
+      {
+        title: 'Benefits:',
+        description: `Offering unique benefits when compared to investment product alternatives such as lending, buy-and-hold, and other methods, staking allows token holders to have the opportunity to grow their position without buying additional tokens.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1643488056768-fe017dc164b6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Crypto Staking Platform <br /><span class="text-2xl">Stake Across Blockchains</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description: `Staking is not an investment product. Rather, it enables token holders to earn rewards by delegating their tokens in order to validate transactions on the underlying blockchain, which helps ensure the security and integrity of the network.`,
+      },
+      {
+        title: 'Benefits:',
+        description: `Staking offers unique benefits when compared to alternatives such as lending, buy-and-hold, and others. Token holders have the opportunity to grow their position without buying additional tokens.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1642403711604-3908e90960ce?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'SaaS Businesses Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Why Stake? <br /><span class="text-2xl">Staking is a Way to Earn Rewards</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  
+
+  
+ 
+</Layout>
