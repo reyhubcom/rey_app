@@ -10,7 +10,7 @@ export const headerData = {
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
+          text: 'Staking Bitcoin',
           href: getPermalink('/homes/startup'),
         },
         {
