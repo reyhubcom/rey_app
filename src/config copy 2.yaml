@@ -1,5 +1,5 @@
 site:
-  name: Rey.Fan
+  name: ReyHub.com
   site: 'https://reyhub.com'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Rey.Fan
-    template: '%s — Rey.Fan'
-  description: "Rey.Fan, Protocol staking is a process in which users can earn rewards by holding and “staking” their tokens in a blockchain network. Staking helps decentralize and maintain the health of the network. Staking provides a steady stream of rewards, independent of underlying token prices. "
+    default: ReyHub.com
+    template: '%s — AstroWind'
+  description: "\U0001F680 ReyHub.com, Blockchain Validator and Delegate , Cross Blockchain"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Rey.Fan
+    site_name: ReyHub.com
     images:
       - url: '~/assets/images/default.png'
         width: 1200
