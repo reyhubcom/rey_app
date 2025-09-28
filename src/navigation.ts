@@ -54,7 +54,7 @@ export const headerData = {
       links: [
         {
           text: 'Earning Hub',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/landing/earn'),
         },
         {
           text: 'Long-form Sales',
