@@ -133,13 +133,13 @@ export const footerData = {
       ],
     },
     {
-      title: 'Platform',
+      title: 'Staking',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'What is Staking?', href: '/staking' },
+        { text: 'Stake Bitcoin', href: '#' },
+        { text: 'Stake Ethereum', href: '#' },
+        { text: 'Protocols', href: '#' },
+        { text: 'View All Crypto', href: '#' },
       ],
     },
     {
