@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'EXCHANGE', href: 'https://skyro.xyz', target: '_blank' }],
+  actions: [{ text: 'APP STAKING', href: 'https://linktr.ee/reystaking', target: '_blank' }],
 };
 
 export const footerData = {
