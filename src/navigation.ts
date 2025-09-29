@@ -57,8 +57,8 @@ export const headerData = {
           href: getPermalink('/landing/earn'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'DeFi',
+          href: getPermalink('/defi'),
         },
         {
           text: 'Click-Through',
