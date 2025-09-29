@@ -105,7 +105,7 @@ export const headerData = {
     },
     {
       text: 'Exchange',
-      href: '/buy',
+      href: '/exchange',
     },
   ],
   actions: [{ text: 'APP STAKING', href: 'https://linktr.ee/reystaking', target: '_blank' }],
