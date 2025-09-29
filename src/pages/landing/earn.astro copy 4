@@ -32,15 +32,15 @@ const metadata = {
   />
 
   <CallToAction
-    title="Let's Exchange"
+    title="Coming soon"
     subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
-  
-     <link rel="stylesheet" type="text/css" href="https://letsexchange.io/widget_lets.css">
-<div class="lets-button" id="lets_widgetButton_sukt1eWAllTeEKrd"
-  style="max-width: 480px; height: 56px;">
-  <iframe src="https://letsexchange.io/v2/widget-button?affiliate_id=sukt1eWAllTeEKrd&is_iframe=true" width="100%" height="100%" frameBorder="0" allow="clipboard-read; clipboard-write"></iframe>
-</div>
-<script src="https://letsexchange.io/init_widget.js"></script>
- 
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Download Template',
+        href: 'https://github.com/arthelokyo/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
   />
 </Layout>
