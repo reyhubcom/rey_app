@@ -22,7 +22,21 @@ const metadata = {
   <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68d49ea1eaff2dd921be37d2&product=sop' async='async'></script>
   <!-- Hero Widget ******************* -->
 
-  
+   <Hero
+    tagline="Staking Platform"
+    title="Crypto Staking"
+    subtitle="Staking is earning rewards by putting your crypto to work on a blockchain network, helping it run smoothly and securely. It's a way to grow your crypto.)"
+    actions={[
+      
+    
+
+      { text: 'Exchange', href: '/buy', icon: 'tabler:coin' },
+      { text: 'Earning', href: ' https://app.exsatbank.com?referral=t3b9hxd3xn', icon: 'tabler:coin' },
+      { text: 'Staking', href: ' https://linktr.ee/reystaking', icon: 'tabler:brand-codesandbox' },
+      { text: 'Markets', href: '/market', icon: 'tabler:ad-2' },
+    ]}
+   
+  />
        <CallToAction
     actions={[
    
@@ -112,19 +126,7 @@ const metadata = {
   </CallToAction>
 
 
- <Hero
-   
-    actions={[
-      
-    
-
-      { text: 'Exchange', href: '/buy', icon: 'tabler:coin' },
-      { text: 'Earning', href: ' https://app.exsatbank.com?referral=t3b9hxd3xn', icon: 'tabler:coin' },
-      { text: 'Staking', href: ' https://linktr.ee/reystaking', icon: 'tabler:brand-codesandbox' },
-      { text: 'Markets', href: '/market', icon: 'tabler:ad-2' },
-    ]}
-   
-  />
+  </Hero>
 
   <!-- Note Widget ******************* -->
 
