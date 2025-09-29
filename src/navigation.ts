@@ -44,7 +44,7 @@ export const headerData = {
         },
         {
           text: 'View All Crypto',
-          href: getPermalink('/contact'),
+          href: getPermalink('/crypto'),
         },
         
       ],
