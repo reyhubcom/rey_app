@@ -58,7 +58,7 @@ export const headerData = {
         },
         {
           text: 'DeFi',
-          href: getPermalink('/defi'),
+          href: getPermalink('/landing/defi'),
         },
         {
           text: 'Click-Through',
