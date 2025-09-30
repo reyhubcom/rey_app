@@ -146,9 +146,9 @@ export const footerData = {
       ],
     },
     {
-      title: 'Company',
+      title: 'Bridge',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'DeBridge', href: '/bridge' },
         { text: 'Blog', href: '#' },
         { text: 'Careers', href: '#' },
         { text: 'Press', href: '#' },
