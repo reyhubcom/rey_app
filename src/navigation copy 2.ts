@@ -89,8 +89,18 @@ export const headerData = {
           text: 'Youhodler',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
-        
-        
+        {
+          text: 'Coin Rabbit',
+          href: getPermalink('markdown-elements-demo-post', 'post'),
+        },
+        {
+          text: 'Category Page',
+          href: getPermalink('tutorials', 'category'),
+        },
+        {
+          text: 'Tag Page',
+          href: getPermalink('astro', 'tag'),
+        },
       ],
     },
     {
