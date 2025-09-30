@@ -32,7 +32,7 @@ export const headerData = {
         },
         {
           text: 'Solana',
-          href: getPermalink('/services'),
+          href: getPermalink('/sol'),
         },
         {
           text: 'Binance',
