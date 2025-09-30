@@ -79,18 +79,18 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Loan',
       links: [
         {
-          text: 'Blog List',
+          text: 'Nexo',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'Youhodler',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
-          text: 'Article (with MDX)',
+          text: 'Coin Rabbit',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
