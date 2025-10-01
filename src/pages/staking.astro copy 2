@@ -43,8 +43,7 @@ const metadata = {
     tagline=""
    
     actions={[
-      
-      { text: 'EXCHANGE', href: '/buy' },
+      { variant: 'primary', target: '_blank', text: 'EXCHANGE', href: '/buy' },
       { text: 'APP STAKING', href: 'https://linktr.ee/reystaking' },
     ]}
     image={{
