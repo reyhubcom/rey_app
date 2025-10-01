@@ -18,7 +18,7 @@ export const headerData = {
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Custodians',
+          text: 'Stake SOL',
           href: getPermalink('/homes/personal'),
         },
       ],
